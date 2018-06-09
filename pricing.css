@@ -11,6 +11,10 @@ html {
   max-width: 960px;
 }
 
+#header {
+  colour: #e5e5e5
+}
+
 .pricing-header {
   max-width: 700px;
 }
