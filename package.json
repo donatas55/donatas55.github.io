@@ -1,8 +1,8 @@
 {
-    "title": "Small Business",
-    "name": "startbootstrap-small-business",
+    "title": "Modern Business",
+    "name": "startbootstrap-modern-business",
     "version": "4.1.1",
-    "description": "A small business HTML template built with Bootstrap",
+    "description": "A multipurpose HTML website template built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/small-business",
+    "homepage": "https://startbootstrap.com/template-overviews/modern-business",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-small-business/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,10 +23,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-small-business.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
+        "font-awesome": "^4.7.0",
         "jquery": "3.3.1"
     },
     "devDependencies": {
