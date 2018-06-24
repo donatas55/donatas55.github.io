@@ -15,15 +15,23 @@ body {
 }
 
 #botto {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+}
+
+#card-test {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-#footer-test {
-  padding: 0px;
+#card-write {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
+
   
 .carousel-item {
   height: 65vh;
