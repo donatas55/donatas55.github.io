@@ -17,6 +17,10 @@ body {
 .card:hover {
   background-color: blue;
 }
+
+#override:hover {
+  background-color: blue;
+}
   
 
 #botto {
