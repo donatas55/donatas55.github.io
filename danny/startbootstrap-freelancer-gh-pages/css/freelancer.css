@@ -168,15 +168,14 @@ section h2 {
 }
 
 #hero {
-  background-image: url("https://donatas55.github.io/danny/startbootstrap-freelancer-gh-pages/newzealand_hero.jpg");
+  background-image: linear-gradient(
+    rgba(24,188,156,0.3),
+    rgba(24,188,156,0.3)),
+    url("https://donatas55.github.io/danny/startbootstrap-freelancer-gh-pages/newzealand_hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5));
-
 }
 
 
