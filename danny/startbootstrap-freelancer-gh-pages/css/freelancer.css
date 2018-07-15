@@ -222,7 +222,6 @@ header.masthead h2 {
   }
 
 @media (min-width: 576px) {
-
   .portfolio.portfolio-item .scale-on-hover:hover{
     transform: scale(1.05);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
@@ -339,11 +338,6 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
-
-
-a:focus, a:hover, a:active {
-  color: #128f76;
-}
 
 .btn {
   border-width: 2px;
