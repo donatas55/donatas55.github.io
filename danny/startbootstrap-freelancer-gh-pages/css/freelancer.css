@@ -167,6 +167,16 @@ section h2 {
   }
 }
 
+#hero {
+  background-image: url("donatas55.github.io/danny/startbootstrap-freelancer-gh-pages/newzealand_hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+
+
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
