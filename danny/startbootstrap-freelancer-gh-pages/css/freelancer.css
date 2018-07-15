@@ -173,16 +173,11 @@ section h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.4;
-}
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5));
 
-.tint {
-  background-colour: green; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+}
 
 
 header.masthead {
