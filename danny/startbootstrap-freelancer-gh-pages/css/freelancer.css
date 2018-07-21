@@ -1,3 +1,6 @@
+.modal-dialog{text-align:center;}
+.modal-content{display:inline-block;}
+
 .gallery-block.grid-gallery{
   padding-bottom: 60px;
   padding-top: 60px;
