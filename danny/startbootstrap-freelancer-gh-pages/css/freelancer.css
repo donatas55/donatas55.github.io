@@ -178,6 +178,11 @@ section h2 {
   background-size: cover;
 }
 
+#profile {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+}
 
 header.masthead {
   padding-top: calc(6rem + 72px);
