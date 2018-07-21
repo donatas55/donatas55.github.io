@@ -72,9 +72,28 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" data-caption="<a href ="https://www.cssscript.com/simple-gallery-lightbox-with-javascript-and-css3-baguettebox-js/" that is faggotry" /a> href="../img/image1.jpg">
+                        <a class="lightbox" data-toggle="modal" data-target="#firstpic">
                             <img class="img-fluid image scale-on-hover" src="../img/image1.jpg">
                         </a>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="firstpic" tabindex="-1" role="dialog" aria-labelledby="firstpic" aria-hidden="true">
+                      <div class="modal-dialog" role="photograph">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-fluid" src="../img/image1.jpg">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">BUY THIS</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
                         <a class="lightbox" href="../img/image2.jpg">
