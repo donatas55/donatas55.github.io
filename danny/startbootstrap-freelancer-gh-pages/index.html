@@ -20,6 +20,7 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -64,13 +65,76 @@
     </header>
 
     <!-- Portfolio Grid Section -->
+    <section class="gallery-block grid-gallery">
+            <div class="container">
+                <div class="heading">
+                    <h2>Grid Gallery</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image1.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image1.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image2.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image2.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image3.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image3.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image4.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image4.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image5.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image5.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image6.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image6.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image7.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image7.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image8.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image8.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="../img/image9.jpg">
+                            <img class="img-fluid image scale-on-hover" src="../img/image9.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+        </script>
+    
+    
+    
+    
+    
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <a class="i" href="#portfolio-modal-1">
               <img class="img-fluid" id="scale-on-hover" src="img/portfolio/cabin.png" alt="">
             </a>
           </div>
