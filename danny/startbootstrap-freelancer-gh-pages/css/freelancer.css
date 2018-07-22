@@ -5,6 +5,7 @@
     max-width: auto;
     margin: $modal-dialog-margin-y-sm-up auto;
   }
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
