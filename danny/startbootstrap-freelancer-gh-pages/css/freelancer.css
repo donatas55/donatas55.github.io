@@ -4,14 +4,16 @@
 }
 
 .modal-dialog.modal-lg.modal-centered.gaylord {
-	max-width: auto;
+	max-width: 100%;
+	width: auto !important;
 }
 
 
 @media (min-width: 576px) {
   .modal-dialog.gaylord {
 	min-width: 75wh;
-	max-width: auto !important;
+	max-width: 100% !important;
+	width: auto !important;
 	margin: 1.75rem auto;	 
   }
 }
