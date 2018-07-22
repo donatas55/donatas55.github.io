@@ -1,4 +1,7 @@
-
+#cunt {
+	min-width: auto;
+	max-width: auto !important;
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
