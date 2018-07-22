@@ -16,6 +16,7 @@ button:hover {
 }
 .modal-content {
   display:inline-block;
+  width: auto;
 }
 
 .gallery-block.grid-gallery{
