@@ -1,10 +1,4 @@
 
-@include media-breakpoint-up(sm) {
-  .modal-dialog {
-    max-width: auto;
-    margin: $modal-dialog-margin-y-sm-up auto;
-  }
-}
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -13,6 +7,14 @@
 	margin: 1.75rem auto;	 
   }
 }
+
+@include media-breakpoint-up(sm) {
+  .modal-dialog {
+    max-width: auto;
+    margin: $modal-dialog-margin-y-sm-up auto;
+  }
+}
+
 
 button {
   background-image: url(https://donatas55.github.io/danny/img/image1.jpg);
