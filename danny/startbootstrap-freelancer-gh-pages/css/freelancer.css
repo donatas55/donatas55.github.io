@@ -1,6 +1,6 @@
-:inline6 @media (min-width: 576px) {
+@media (min-width: 576px) {
   .modal-dialog {
-	max-width: auto;
+	min-width: auto;
 	margin: 1.75rem auto;
 	 
   }
