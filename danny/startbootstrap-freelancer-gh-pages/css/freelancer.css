@@ -1,3 +1,5 @@
+
+
 button {
   background-image: url(https://donatas55.github.io/danny/img/image1.jpg);
 
@@ -10,6 +12,7 @@ button:hover {
 
 .modal-dialog {
   text-align:center;
+  max-width: auto;
 }
 .modal-content {
   display:inline-block;
