@@ -1,4 +1,9 @@
-
+@media (min-width: 576px) {
+  .modal-dialog {
+	max-width: auto;
+	margin: 1.75rem auto;
+  }
+}
 
 button {
   background-image: url(https://donatas55.github.io/danny/img/image1.jpg);
