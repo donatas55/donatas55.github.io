@@ -3,8 +3,15 @@
 	max-width: auto !important;
 }
 
+modal-dialog. gaylord {
+	min-width: auto;
+	max-width: auto; !important;
+}
+
+
+
 @media (min-width: 576px) {
-  .modal-dialog {
+  .modal-dialog .gaylord {
 	min-width: auto;
 	max-width: auto !important;
 	margin: 1.75rem auto;	 
