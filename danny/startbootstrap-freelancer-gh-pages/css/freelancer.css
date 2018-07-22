@@ -1,18 +1,13 @@
-#cunt {
-	min-width: 70vh;
-	max-width: auto !important;
-}
-
-.modal-dialog .gaylord {
-	min-width: auto;
+.modal-dialog.gaylord {
+	min-width: 70wh;
 	max-width: auto; !important;
 }
 
 
 
 @media (min-width: 576px) {
-  .modal-dialog .gaylord {
-	min-width: auto;
+  .modal-dialog.gaylord {
+	min-width: 75wh;
 	max-width: auto !important;
 	margin: 1.75rem auto;	 
   }
