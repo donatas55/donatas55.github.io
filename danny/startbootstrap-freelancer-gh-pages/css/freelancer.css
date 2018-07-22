@@ -3,6 +3,9 @@
 	max-width: auto; !important;
 }
 
+.modal-dialog.modal-lg.modal-centered.gaylord {
+	max-width: auto;
+}
 
 
 @media (min-width: 576px) {
