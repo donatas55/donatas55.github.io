@@ -418,6 +418,11 @@ form .row:first-child .floating-label-form-group {
   background-color: #18BC9C !important;
 }
 
+.bg-primary:hover .bg-primary:active {
+  background-color: #128f76 !important;
+}
+
+
 .bg-secondary {
   background-color: #2C3E50 !important;
 }
