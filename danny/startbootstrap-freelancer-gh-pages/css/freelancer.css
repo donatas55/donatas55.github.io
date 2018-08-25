@@ -251,7 +251,8 @@ section h2 {
 #profile {
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  max-width: 70vw;
+  }
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -282,9 +283,6 @@ header.masthead h2 {
   }
 }
 
-.portfolio {
-  margin-bottom: -15px;
-}
 
 .portfolio .portfolio-item {
   position: relative;
