@@ -24,6 +24,7 @@ button:hover {
 
 button.bg-primary:hover button.bg-primary: active {
   background-color: #128f76 !important;
+}
 
 .modal-dialog {
   text-align:center;
