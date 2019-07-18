@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <script src="https://cesiumjs.org/releases/1.59/Build/Cesium/Cesium.js"></script>
-  <link href="https://cesiumjs.org/releases/1.59/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-</head>
-<body>
-  <div id="cesiumContainer" style="width: 700px; height:400px"></div>
-  <script>
-    var viewer = new Cesium.Viewer('cesiumContainer');
-  </script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cesiumjs.org/releases/1.59/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesiumjs.org/releases/1.59/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  </head>
+    <body>
+      <div id="cesiumContainer" style="width: 700px; height:400px">
+      </div>
+      <script>
+        Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkZWU2ZWU2MS1iZGY1LTQ4OWYtODgyMS0zYmQ5ZWQxNmNkZmUiLCJpZCI6MTM1NDMsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1NjM0NDk5MzJ9.ZSfB0kgKLqEWV3Rx9aQsHOlmWrJ-QyrY7277NLk9HKw';
+        var viewer = new Cesium.Viewer('cesiumContainer');
+      </script>
+    </body>
 </html>
